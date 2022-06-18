@@ -1,5 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import ReactApexChart from "react-apexcharts";
+
 export default class ApexChart extends React.Component {
   constructor(props) {
     super(props);
@@ -24,22 +25,22 @@ export default class ApexChart extends React.Component {
         },
         stroke: {
           curve: "smooth",
-          colors:['#ff0000']
+          colors: ["#ff0000"],
         },
         title: {
           text: "Shoxrux Muradov Kompaniyasi yillik hisoboti",
           align: "center",
-          style:{
-            fontSize: '32px',
-            FontWeight: 'normal',
-            fontFamily: 'monospace',
-            color: '#fff'
-          }
+          style: {
+            fontSize: "32px",
+            FontWeight: "normal",
+            fontFamily: "monospace",
+            color: "#fff",
+          },
         },
 
         grid: {
           row: {
-            colors: [ "black", ], // takes an array which will be repeated on columns
+            colors: ["black"], // takes an array which will be repeated on columns
             opacity: 0.5,
           },
         },
